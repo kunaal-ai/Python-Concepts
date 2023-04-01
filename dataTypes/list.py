@@ -1,4 +1,4 @@
-# List is a collection which is ordered and changeable. Allows duplicate members.
+# Ordered and changeable. Allows duplicate members.
 # List can have any data types
 # Lists are mutable 
 

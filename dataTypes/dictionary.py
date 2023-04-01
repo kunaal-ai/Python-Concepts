@@ -1,4 +1,4 @@
-# Dictionary is a collection which is ordered** and changeable. No duplicate members.
+# Ordered and changeable. No duplicate members.
 
 programming_languages = {1:'python', 2:'javascript',3:'ruby'}
 print(programming_languages)
