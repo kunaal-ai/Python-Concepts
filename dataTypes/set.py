@@ -1,7 +1,8 @@
-# Set is a collection which is unordered, unchangeable/immutable, and unindexed. No duplicate members.
-# unordered, hence cannot access or change an element of a set using indexing or slicing.
-
-employee_id = {1122,34,1122}
+"""
+Set is a collection which is unordered, unchangeable/immutable, and unindexed. No duplicate members.
+unordered, hence cannot access or change an element of a set using indexing or slicing.
+"""
+employee_id = {1122, 34, 1122}
 print(employee_id)
 
 
