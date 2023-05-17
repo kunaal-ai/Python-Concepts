@@ -2,4 +2,4 @@
 
 
 # Formatiing
-``` black folder/file_name.py ```
+```black folder/file_name.py```
