@@ -7,9 +7,10 @@ import requests
 
 if len(sys.argv) != 2:
     sys.exit()
-
 try:
-    response = requests.get("https://itunes.apple.com/search?entity=song&limit=10&term=" + sys.argv[1])
+    response = requests.get(
+        "https://itunes.apple.com/search?entity=song&limit=10&term=" + sys.argv[1]
+    )
 except requests.exceptions.RequestException as e:  # This is the correct syntax
     raise SystemExit(e)
 
