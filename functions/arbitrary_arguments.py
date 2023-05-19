@@ -10,7 +10,7 @@ def arbitrary_arguments(prog_language, rating, *args):
     return result
 
 
-print(arbitrary_arguments("a", 3, "a", "r", "g", "s"))
+print(arbitrary_arguments("python", 3, "a", "r", "g", "s"))
 
 
 def arbitrary_arguments_dic(prog_language, rating, **kwargs):
